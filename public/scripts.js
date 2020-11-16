@@ -70,8 +70,6 @@ const PhotosUpload = {
       event.preventDefault()
       return true
     }
-
-
     return false
   },
   getAllFiles() {

@@ -85,7 +85,6 @@ module.exports = {
       ...file,
       src: `${req.protocol}://${req.headers.host}${file.path.replace("public", "")}`
     }))
-
     return res.render('products/edit.njk', { product, categories, files })
 
   },
